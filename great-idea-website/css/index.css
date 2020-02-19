@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 /* start header CSS */
 
+
 header {
 	text-align: center;
 	box-sizing: border-box;
@@ -75,26 +76,83 @@ header {
 header nav {
 	display: inline-block;
 	margin: 30px 0px;
-	width: 75%;
+	width: 70%;
 }
 
 nav a {
 	display: inline-block;
 	width: 10%;
+	color: gray;
 	text-align: center;
 	text-decoration: none;
-	color: gray;
 }
 
-/* start section one CSS */
+	
 
-span {
-	display: block;
-	margin: 50px;
-	width: 30px;
+
+/* start about CSS */
+
+.about {
+	text-align: center;
+	vertical-align: top;
+	margin-bottom: 75px;
+}
+
+.about section {
+	display: inline-block;
+	width: 20%;
+
+}
+
+.about .about-one {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.about .about-one h1 {
 	font-size: 75px;
-	font-weight: bold;
+	margin-top: 10%;
+}
 
+.more-info {
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.more-info section {
+	display: inline-block;
+	text-align: left;
+	width: 40;
+}
+
+.info-two {
+	text-align: center;
+}
+
+.info-two img {
+	width: 85%;
+}
+
+.footer {
+	text-align: left;
+	width: 95%;
+	margin-left: 7%;
+}
+
+.footer section {
+	width: 85%;
+}
+
+.copyright {
+	text-align: center;
+}
+
+button {
+	background: white;
+}
+
+button p {
+	width: 50%;
 }
 
 
@@ -105,7 +163,9 @@ span {
 
 
 
-}
+
+
+
 
 header, section, nav, footer{
 	border: 1px solid;

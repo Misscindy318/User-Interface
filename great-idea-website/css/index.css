@@ -68,6 +68,9 @@ h1, h2, h3, h4, h5 {
 /* start header CSS */
 
 
+
+
+
 header {
 	text-align: center;
 	box-sizing: border-box;
@@ -95,7 +98,7 @@ nav a {
 .about {
 	text-align: center;
 	vertical-align: top;
-	margin-bottom: 75px;
+	margin-bottom: 85px;
 }
 
 .about section {
@@ -104,47 +107,24 @@ nav a {
 
 }
 
-.about .about-one {
-	text-align: center;
-	margin-bottom: 15px;
+.about img {
+	width: 90%;
+	height: 90%
 }
 
-.about .about-one h1 {
+
+.about .about-a {
+	text-align: center;
+	margin-bottom: 20px;
+	
+
+}
+
+.about .about-a h1 {
 	font-size: 75px;
 	margin-top: 10%;
-}
+	margin-right: 10%;
 
-.more-info {
-	text-align: center;
-	margin: 20px 0px 20px 0px;
-}
-
-.more-info section {
-	display: inline-block;
-	text-align: left;
-	width: 40;
-}
-
-.info-two {
-	text-align: center;
-}
-
-.info-two img {
-	width: 85%;
-}
-
-.footer {
-	text-align: left;
-	width: 95%;
-	margin-left: 7%;
-}
-
-.footer section {
-	width: 85%;
-}
-
-.copyright {
-	text-align: center;
 }
 
 button {
@@ -155,6 +135,53 @@ button p {
 	width: 50%;
 }
 
+.more-info {
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+
+
+.more-info section {
+	display: inline-block;
+	text-align: left;
+	width: 42%;
+}
+
+.more-info-two {
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.more-info-two section {
+	display: inline-block;
+	text-align: left;
+	width: 28%
+}
+
+.info-two {
+	text-align: center;
+
+}
+
+.info-two img {
+	width: 85%;
+	text-align: center;
+}
+
+.footer {
+	text-align: left;
+	width: 95%;
+	margin-left: 8%;
+}
+
+.footer section {
+	width: 85%;
+}
+
+.copyright {
+	text-align: center;
+}
 
 
 
@@ -167,7 +194,6 @@ button p {
 
 
 
-header, section, nav, footer{
-	border: 1px solid;
-	margin: 3px;
-} 
+
+
+
